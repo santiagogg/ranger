@@ -66,7 +66,7 @@ Currently Ranger works **Only** with the Laravel framework.  However, we do have
 To publish this config to **app/config/packages/indatus/ranger** folder, you need to run the following:
 
 ````
-php artisan config:publish indatus/ranger
+php artisan publish:config indatus/ranger
 ````
 
 The final step is to add the service provider. Open `app/config/app.php`, and add a new item to the providers array.
