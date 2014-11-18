@@ -14,11 +14,11 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.1.*",
-        "illuminate/container": "4.1.*@dev",
-        "illuminate/database": "4.1.*@dev",
-        "illuminate/view": "4.1.*@dev",
-        "illuminate/routing": "4.1.*@dev"
+        "illuminate/support": "5.*",
+        "illuminate/container": "5.*@dev",
+        "illuminate/database": "5.*@dev",
+        "illuminate/view": "5.*@dev",
+        "illuminate/routing": "5.*@dev"
     },
     "require-dev": {
         "mockery/mockery": "dev-master@dev",
