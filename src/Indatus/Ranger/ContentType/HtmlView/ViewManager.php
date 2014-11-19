@@ -15,7 +15,6 @@ namespace Indatus\Ranger\ContentType\HtmlView;
 
 use InvalidArgumentException;
 use Illuminate\View\Environment;
-use Illuminate\Contracts\View\Factory as View;
 use Illuminate\Routing\Redirector;
 
 /**
@@ -38,11 +37,11 @@ class ViewManager
 
     /**
      * 
-     * @param View $view
+     * @param Environment $view
      * @param Redirector  $redirect
      * @codeCoverageIgnore
      */
-    public function __construct(View $view, Redirector $redirect)
+    public function __construct(Environment $view, Redirector $redirect)
     {
         $this->view = $view;
         $this->redirect = $redirect;
