@@ -183,9 +183,8 @@ class UsersController extends ApiBaseController {
 <?php
 
 //It's always a good idea to prefix your api
-Route::group(['prefix' => 'v1'], function() {
-
-    Route::resource('users', 'UsersController');
+$router->group(['prefix'=>'v1'],function($router){
+    $router->resource('users','UsersController');
 });
 ```
 <br />
