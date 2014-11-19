@@ -109,9 +109,12 @@ The examples in this documentation are directly from the example app, in the rep
 **Here's an example of a non-nested resource**
 
 ```php
-<?php
+<?php namespace App\Http\Controllers;
 
-class UsersController extends Indatus\Ranger\ApiBaseController {
+use App\User;
+use Indatus\Ranger\ApiBaseController;
+
+class UsersController extends ApiBaseController {
 
     /**
      * Illuminate\Database\Eloquent
