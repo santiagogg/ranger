@@ -1,4 +1,5 @@
 # Ranger
+for laravel 5 dev
 
 [<img src="https://s3-us-west-2.amazonaws.com/oss-avatars/ranger.png"/>](http://indatus.com/company/careers)
 
